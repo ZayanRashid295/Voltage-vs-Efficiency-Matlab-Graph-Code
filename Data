@@ -1,0 +1,17 @@
+This MATLAB code calculates and plots the voltage vs. efficiency curves for three different electrode materials (stainless steel, titanium paper, and nickel foam) in an alkaline electrolysis system. Here's an explanation of the code:
+
+Electrode area and thickness: The code defines the electrode areas (A_ss, A_ti, A_nf) in cm^2 and the electrode thicknesses (t_ss, t_ti, t_nf) in cm for each electrode material.
+
+Electrolyte properties: The code specifies the concentration of KOH (KOH_conc) in wt.% and the density of KOH electrolyte (rho_KOH) in g/cm^3.
+
+Electrode properties: The code provides the densities of the electrode materials (rho_ss, rho_ti, rho_nf) in g/cm^3.
+
+Current density range: The code defines the minimum (j_min) and maximum (j_max) current densities in A/cm^2 and the step size (delta_j) for generating a range of current densities (j).
+
+Calculate the voltage and efficiency: Using the current densities, the code calculates the voltage (V_ss, V_ti, V_nf) for each electrode material based on specific voltage equations. It also calculates the efficiency (Eff_ss, Eff_ti, Eff_nf) by dividing the current density by the voltage.
+
+Plotting: The code plots the voltage vs. efficiency curves for each electrode material using the plot function. The curves are represented by red (V_ss), blue (V_ti), and green (V_nf) lines. The x-axis represents the efficiency values (A/V), and the y-axis represents the voltage values. The plot includes axis labels, a legend, and a title.
+
+Grid: The code adds a grid to the plot using the grid on statement.
+
+The resulting plot shows the relationship between voltage and efficiency for each electrode material in an alkaline electrolysis system. It provides insights into the performance of the electrolysis system at different levels of efficiency using different electrode materials.
